@@ -16,4 +16,12 @@ export default gql`
   }
 
   # Mutations
+  type Mutation {
+    createUser( id: String!
+      name: String!
+      email: String!
+      age: Int!
+      gender: String!
+      married: Boolean!): User!
+  }
 `;

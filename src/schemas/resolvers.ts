@@ -1,4 +1,4 @@
-import {users} from "../data/users"
+import {users, User} from "../data/users"
 
 export default {
   Query:{
@@ -6,7 +6,12 @@ export default {
       return users
     }
   }, 
-  // Mutations:{
-
-  // }
+  Mutation:{
+    createUser(parent:any, args:User){
+      const newUser = args
+      console.log(args)
+      users.push(newUser)
+      return newUser
+    }
+  }
 }
