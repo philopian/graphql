@@ -7,7 +7,7 @@ import {
 } from "@apollo/client";
 import { onError } from "@apollo/client/link/error";
 
-import GetUsers from "./components/GetUsers";
+import UsersList from "./components/UsersList";
 import Form from "./components/Form";
 import './App.css'
 
@@ -32,7 +32,7 @@ const client = new ApolloClient({
 export default function App() {
   return (
     <ApolloProvider client={client}>
-      <GetUsers />
+      <UsersList />
       <Form />
     </ApolloProvider>
   )

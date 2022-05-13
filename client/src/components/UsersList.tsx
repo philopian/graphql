@@ -4,9 +4,9 @@ import { useQuery } from "@apollo/client";
 import { User } from "../types/users"
 import { LOAD_USERS } from "../graphql/queries";
 
-import styles from './GetUsers.module.css'
+import styles from './UsersList.module.css'
 
-export default function GetUsers() {
+export default function UsersList() {
   const { error, loading, data } = useQuery(LOAD_USERS);
   const [users, setUsers] = useState([]);
 
