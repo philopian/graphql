@@ -1,5 +1,5 @@
 export type User = {
-  id: number;
+  id: string;
   name: string;
   email: string;
   age: number;
@@ -9,7 +9,7 @@ export type User = {
 
 export const users: User[] = [
   {
-    id: 1,
+    id: "1",
     name: "Meghann Detoc",
     email: "mdetoc0@g.co",
     age: 40,
@@ -17,7 +17,7 @@ export const users: User[] = [
     married: true,
   },
   {
-    id: 2,
+    id: "2",
     name: "Fanya McCombe",
     email: "fmccombe1@nasa.gov",
     age: 30,
@@ -25,7 +25,7 @@ export const users: User[] = [
     married: true,
   },
   {
-    id: 3,
+    id: "3",
     name: "Ame Alessandrelli",
     email: "aalessandrelli2@printfriendly.com",
     age: 33,
@@ -33,7 +33,7 @@ export const users: User[] = [
     married: false,
   },
   {
-    id: 4,
+    id: "4",
     name: "Murdock Chandler",
     email: "mchandler3@eventbrite.com",
     age: 43,
@@ -41,7 +41,7 @@ export const users: User[] = [
     married: false,
   },
   {
-    id: 5,
+    id: "5",
     name: "Sylvia Bendall",
     email: "sbendall4@theglobeandmail.com",
     age: 35,

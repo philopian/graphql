@@ -2,7 +2,7 @@ import { gql } from 'apollo-server-express'
 
 export default gql`
   type User {
-    id: String!
+    id: ID!
     name: String!
     email: String!
     age: Int!
@@ -17,11 +17,13 @@ export default gql`
 
   # Mutations
   type Mutation {
-    createUser( id: String!
+    createUser( 
+      id: ID!
       name: String!
       email: String!
       age: Int!
       gender: String!
-      married: Boolean!): User!
+      married: Boolean!
+    ): User!
   }
 `;
