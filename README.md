@@ -60,7 +60,7 @@
 ## Todo
 - [x] server with TS + graphql + apollo + express
 - [x] client that connects to the local instance of graphql
-- [ ] server with TS + graphql + apollo + lambda
+- [ ] server with TS + graphql + apollo + [lambda](https://www.apollographql.com/docs/apollo-server/deployment/lambda/)
 - [ ] Yarn workspace
 - [ ] Shared linting
 - [ ] UI: when adding via the form load in the list
