@@ -1,0 +1,13 @@
+{
+  "name": "lambda",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev":"serverless invoke local -f graphql -p query.json"
+  },
+  "dependencies": {
+    "apollo-server-lambda": "^3.7.0",
+    "graphql": "^16.5.0"
+  }
+}
